@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", cursive;
+    --fonte3: "Sriracha", cursive;
+}
+
+body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    margin: 0px;
+    font-weight: bold;
+}
+
+header > p{
+    padding-bottom: 50px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+    padding-top: 2.8vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section#img01{
+    background-image: url(/imgs/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(/imgs/background002.jpg);
+    background-position: right center;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 1px 1px 0px rgba(0, 0, 0, 0.345);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.462);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer > p{
+    margin: 0px;
+}
