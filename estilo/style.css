@@ -62,12 +62,12 @@ section.normal{
 }
 
 section#img01{
-    background-image: url(/imgs/background001.jpg);
+    background-image: url(imgs/background001.jpg);
     background-position: right center;
 }
 
 section#img02{
-    background-image: url(/imgs/background002.jpg);
+    background-image: url(imgs/background002.jpg);
     background-position: right center;
 }
 
